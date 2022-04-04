@@ -22,9 +22,15 @@ function App() {
       <GlobalStyles />
         <Header />
         <Container>
-        {/*{content.map((item, index) => (
+        {content.map((item, index) => (
+            <Card key={index} item={item} />
+        ))}
+          {/*{content.map((item, index) => (
             <Card key={index} item={item} />
         ))}*/}
+        
+
+   
             
           {/*{content.map((item, index)=>(<Card key={index} item={item}/>))}*/}
         </Container>
