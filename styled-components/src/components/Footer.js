@@ -7,14 +7,13 @@ export default function Footer() {
   return (
     <StyledFooter>
      <Container>
-        <img src="./images/logo_white,svg" alt=" "/>
+        <img src="./images/logo_white.svg" alt=" "/>
 
         <Flex>
 
         <ul>
             <li>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua
+              Subscribe to your news feed
             </li>
             <li>+1-543-123-4567</li>
             <li>example@huddle.com</li>
